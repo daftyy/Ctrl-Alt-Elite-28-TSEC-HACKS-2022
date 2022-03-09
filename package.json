@@ -1,10 +1,10 @@
 {
-	"devDependencies": {
-		"tailwindcss": "^3.0.23"
-	},
-	"scripts": {
-		"dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
-		"build": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --minify",
-		"build1": "npx tailwindcss -i ./src/dashboard.css -o ./dist/dashboard.css --minify"
-	}
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
+    "build": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --minify",
+    "build1": "npx tailwindcss -i ./src/dashboard.css -o ./dist/dashboard.css --minify"
+  }
 }
