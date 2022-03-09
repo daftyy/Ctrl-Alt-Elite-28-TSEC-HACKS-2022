@@ -4,9 +4,7 @@
   },
   "scripts": {
     "dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
-    "build": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --minify"
-  },
-  "dependencies": {
-    "firebase": "^9.6.8"
+    "build": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --minify",
+    "build1": "npx tailwindcss -i ./src/dashboard.css -o ./dist/dashboard.css --minify"
   }
 }
