@@ -134,29 +134,86 @@
 			<div class="flex flex-col md:flex-row">
 				<div class="container mx-auto text-center">
 					<h1 class="text-3xl">Position</h1>
-					<p class="text-2xl">person 1</p>
+					<p class="text-2xl">Software Developer</p>
+					<p class="text-2xl">Analyst</p>
+					<p class="text-2xl">Intern</p>
 				</div>
-				<div class="container mx-auto text-center">
+				<div class="container mx-3 text-center">
 					<h1 class="text-3xl">Platform</h1>
-					<p class="text-2xl">person 1</p>
+					<p class="text-2xl">Microsoft Teams</p>
+					<p class="text-2xl">Zoom</p>
+					<p class="text-2xl">Google Meet</p>
 				</div>
-				<div class="container mx-auto text-center">
+				<div class="container mx-auto justify-center text-center">
 					<h1 class="text-3xl">Link</h1>
-					<p class="text-2xl">person 1</p>
+					<p class="text-2xl">
+						<button
+							id="accept"
+							class="mx-auto lg:mx-2 hover:underline bg-blue-600 text-gray-800 font-bold rounded-full my-1 py-1 px-2 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Open teams
+						</button>
+					</p>
+					<p class="text-2xl">
+						<button
+							id="accept"
+							class="mx-auto lg:mx-2 hover:underline bg-blue-600 text-gray-800 font-bold rounded-full my-1 py-1 px-2 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Open Zoom
+						</button>
+					</p>
+					<p class="text-2xl">
+						<button
+							id="accept"
+							class="mx-auto lg:mx-2 hover:underline bg-blue-600 text-gray-800 font-bold rounded-full my-1 py-1 px-2 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Open Google Meet
+						</button>
+					</p>
 				</div>
 				<div class="container mx-auto text-center">
 					<h1 class="text-3xl">Status</h1>
-					<button
-						id="accept"
-						class="mx-auto lg:mx-2 hover:underline bg-green-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-					>
-						Accept</button
-					><button
-						id="decline"
-						class="mx-auto lg:mx-2 hover:underline bg-red-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-					>
-						Decline
-					</button>
+					<div class="flex-row">
+						<button
+							id="accept"
+							onclick="AccInc()"
+							class="mx-auto lg:mx-2 hover:underline bg-green-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Accept</button
+						><button
+							onclick="decInc()"
+							id="decline"
+							class="mx-auto lg:mx-2 hover:underline bg-red-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Decline
+						</button>
+					</div>
+					<div class="flex-row">
+						<button
+							id="accept"
+							class="mx-auto lg:mx-2 hover:underline bg-green-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Accept</button
+						><button
+							id="decline"
+							class="mx-auto lg:mx-2 hover:underline bg-red-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Decline
+						</button>
+					</div>
+					<div class="flex-row">
+						<button
+							id="accept"
+							class="mx-auto lg:mx-2 hover:underline bg-green-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Accept</button
+						><button
+							id="decline"
+							class="mx-auto lg:mx-2 hover:underline bg-red-600 text-gray-800 font-bold rounded-full my-1 py-2 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+						>
+							Decline
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>

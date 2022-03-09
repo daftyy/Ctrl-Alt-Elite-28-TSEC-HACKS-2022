@@ -5,7 +5,8 @@ declineInvite.onclick = decInc;
 acceptInvite.onclick = AccInc;
 
 function decInc() {
-	console.log("Declined Invite");
+	var parent = acceptInvite.parentElement;
+	console.log(parent.getAttributeNames);
 }
 
 function AccInc() {
