@@ -5,5 +5,8 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
     "build": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --minify"
+  },
+  "dependencies": {
+    "firebase": "^9.6.8"
   }
 }

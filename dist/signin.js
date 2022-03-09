@@ -23,15 +23,7 @@ var updateSigninStatus = (isSignedIn) => {
     signUpWithGoogle().then(
       (response) => {
         //prefilll information for user
-        $("[name='fname'").val(
-          response.names[0].displayNameLastFirst.split(" ")[0]
-        );
-        $("[name='lname'").val(
-          response.names[0].displayNameLastFirst.split(" ")[1]
-        );
-        $("[name='uname'").val(response.names[0].displayName);
-        $("[name='email'").val(response.emailAddresses[0].value);
-        $("#imageUser").attr("src", response.coverPhotos[0].url);
+        console.log(response);
       },
       (error) => {
         console.log(error);
@@ -48,15 +40,6 @@ var signUpWithGoogleOnClickHandler = () => {
       (response) => {
         //prefilll information for user
         console.log(response);
-        $("[name='fname'").val(
-          response.names[0].displayNameLastFirst.split(" ")[0]
-        );
-        $("[name='lname'").val(
-          response.names[0].displayNameLastFirst.split(" ")[1]
-        );
-        $("[name='uname'").val(response.names[0].displayName);
-        $("[name='email'").val(response.emailAddresses[0].value);
-        $("#imageUser").attr("src", response.coverPhotos[0].url);
       },
       (error) => {
         console.log(error);
